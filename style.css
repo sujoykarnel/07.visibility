@@ -1,0 +1,26 @@
+.overflow-1{
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.overflow-1 p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.overflow-2 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.overflow-3 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+    overflow-y: scroll;
+}
